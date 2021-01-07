@@ -14,10 +14,10 @@ The second source was from the FourSquare API that provided us the different ven
 2. Using Geopy, we give each neighborhood a Latitiude and Longitude value. 
 3. Next comes the use of the Foursquare API, we use it to find the venues and their categories within a radius of the coordinates. 
 4. Remove all venues that were not part of the group that we decided were necessary for the clustering. Venues that were deemed relevant for this project are in categories including:
-* Fast Food Restaurants
-* Supermarkets
-* Markets
-* Grocery Store
+    * Fast Food Restaurants
+    * Supermarkets
+    * Markets
+    * Grocery Store
 5. 
 
 
