@@ -18,7 +18,10 @@ The second source was from the FourSquare API that provided us the different ven
     * Supermarkets
     * Markets
     * Grocery Store
-5. 
+5. All venue entries that were not categorized as the above were removed from the dataframe. From there an average was found for each neighborhood. This means that the percentage of fast food stores in the total for food places was found. This applies to all of the options listed above. 
+6. Principal Component Analysis was done next in order to determine the amount of variance each of the features explained. The results were used in KMeans clustering. 
+7. Looping though the possible number of clusters, the number was narrowed down by looking at the Silhouette Score and the Elbow Curve.
+8. Mapping the results included using Folium. 
 
 
 
